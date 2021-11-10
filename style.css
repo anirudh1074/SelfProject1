@@ -1,0 +1,189 @@
+
+#container1
+{
+    overflow: hidden;
+    background-color: white;
+    height: 60vh;
+    width:60%;
+    border-radius: 15px;
+    margin-left: 250px; 
+     margin-top: 70px;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 12px;
+}
+#container1>p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#pepperoni, #Margherita ,#GoldenCornPizza ,#JalapenoPizza ,#PaneerSpecialPizza ,#BBQChickenPizza ,#AvacadoPizza ,#Spicyvegtrio ,#VeganMargherita, #Daiquiris, #GrapeJuice, #Negrogoni
+,#GulabJamun ,#PasteisdeNata ,#Tiramisu
+{
+    background-color:white;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-color: black;
+    background-color: white;
+}
+img 
+{
+    width:100px;
+    height:100px;
+}
+#pizza,#drinks,#desserts
+{
+    margin-top: 50px;
+    width:800px;
+    margin-left: 300px; 
+}
+#movepizza , #movedrinks ,#movedesserts
+{
+  margin-left: 60px;
+  padding-top:30px;
+}
+#log
+{
+margin-left: 705px;
+background-color: orangered;
+color:white;
+}
+h2
+{
+    margin-left: 75px;
+}  
+#dec
+{
+width: 50%;
+height: 100%;
+}
+#login
+{
+    background-image: url('assets\Login\bgimg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+#h2food
+{
+margin-left: 200px;
+position: absolute;
+padding-top: 20px;
+}
+#posstars
+{
+margin-left: 200px;
+position: absolute;
+padding-top: 80px;
+color: orangered;
+}
+#price
+{
+    font-weight: bolder;
+    font-size:18px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+#foodlinks
+{
+    margin-top: 10px;
+   font-weight: bold;
+   color: orangered;
+   text-decoration: none;
+   font-weight: bolder;
+   font-size: 17px;
+}
+#cartborder
+{
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 250px;
+    margin-top: 70px;
+    text-align: center;
+    height: 60vh;
+    width:60%;
+    float:left;
+    padding-top: 75px;
+}
+.cart-row
+{
+  color:orange;
+  margin-left: 20px;
+}
+  /* #red-button
+  {
+    background-color: hsl(0, 71%, 51%);
+    color: #ffffff;
+    font-weight: bolder;
+    width: 30%;
+    font-size: 15px;
+    padding: 20px 40px;
+    border: white;
+    border-radius: 25px;
+    
+  } */
+  /* #orange-button
+  {
+    background-color: orangered;
+    color: #ffffff;
+    font-weight: bolder;
+    width: 15%;
+    height: 13%;
+    font-size: 15px;
+    padding: 20px 40px;
+    border: white;
+    border-radius: 25px;
+    text-align: center;
+  } */
+  .btn{
+    border: none;
+    color: white;
+    padding: 10px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 12px;
+    background-color:orangered;
+    font-weight: bolder;
+    font-size: 15px;
+    text-align: center; 
+    border-radius: 10px;
+  }
+  #choose
+  {
+      text-align: center;
+      margin-right: 85px;
+      
+  }
+  .btn:active .btn.active{
+    color:black;
+    outline: none;
+  }
+  
+  .btn:focus{
+    color:black;
+    outline: none;
+  }
+  
+  #test{
+    color: black;
+    width: 600px;
+    height: 400px;
+  }
+  .cart-row{
+    display: flex;
+    width: 80vw;
+    justify-content: space-evenly;
+    padding-left: 150px;
+    position: relative;
+  }
+  .cart-items
+  {
+    position: absolute;
+  }
+  .section-header
+  {
+    padding-left:600px;
+  }

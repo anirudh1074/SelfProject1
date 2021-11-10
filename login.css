@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+body
+{
+    background-image: url('assets/Login/bgimg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+#login
+{
+    background-color: white;
+    height: 75vh;
+    width: 38%;
+    margin-left: 0px;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 20px;
+    font-family: 'Rubik', sans-serif;
+    opacity: 95%;
+}
+#heading
+{
+    color: orangered;
+    font-weight: bolder;
+    padding-top: 50px;
+}
+#loginsub
+{
+color: black;
+text-decoration: none;
+font-weight: bolder;
+}
+#signupsub
+{
+color:white;
+background-color: black;
+}
+a:hover {
+    color: red;
+  }

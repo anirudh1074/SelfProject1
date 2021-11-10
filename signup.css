@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+body
+{
+    background-image: url('assets/Login/signupbgimg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+#signup
+{
+    background-color: white;
+    height: 35vh;
+    width: 35%;
+    margin-left: 430px;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 20px;
+    font-family: 'Rubik', sans-serif;
+    padding-top: 100px;
+    opacity: 95%;
+}
