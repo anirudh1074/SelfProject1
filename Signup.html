@@ -6,21 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Signup</title>
     <link rel="stylesheet" href="signup.css">
-    <script src="app.js" async></script>
+   
 </head>
 <body>
-    <div id = "signup">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for="email"><b>Email</b></label>
-        <input type="text" placeholder="Enter Email" name="email" id="email" required>
-        <br><br>
-        &nbsp;&nbsp;&nbsp;&nbsp;<label for="psw"><b>Password</b></label>
-        <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
-        <br><br>
-        <label for="psw-repeat"><b>Repeat Password</b></label>
-        <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
-        <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-        <input id="signupsub" onclick="location.href = 'Login.html';" type="button" name="log" id="log" value="SIGN UP">
-
+   
+        <div class="Signupbox">
+            <img src="assets\Login\Logo.png" class="avatar">
+            <h1>SignUp Here</h1>
+            <form>
+                <p>FirstName</p>
+                <input id="First" type="text" name="" placeholder="Enter FirstName">
+                <p>LastName</p>
+                <input id="last" type="text" name="" placeholder="Enter LastName">
+                <p>Email</p>
+                <input id="email" type="text" name="" placeholder="Enter Email">
+                <p>Password</p>
+                <input id="password" type="password" name="" placeholder="Enter Password">
+                <input type="submit" onclick="getData()" name="" value="Signup">
+                 
+            </form>
+        </div>
     </div>
    </body>
+   <script src="login.js" async></script>
 </html>

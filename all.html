@@ -7,20 +7,28 @@
     <title>All</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="app.js" async></script>
+    
 </head>
 <body>
-    <div id="foodlinks">
-        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a id="foodlinks" href="pizza.html">Pizza</a>   &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
-        <a id="foodlinks" href="drinks.html">Drinks</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
-        <a id="foodlinks" href="desserts.html">Desserts</a>
-        </div>
-    
+        <header>
+            <nav class="navbar">
+      
+              <a href="#h1">Pizza</a>
+      
+              <a href="#h2">Drinks</a>
+      
+              <a href="#h3">Desserts</a>
+
+              <a href="#cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+            
+            </nav>
+           </header>
+   
         <div id="pizza">
-            <div>
+            <h1 id ="h1">Pizza</h1>
             <div id="GoldenCornPizza">
                 
-                <h2 id = "h2food">Golden Corn Pizza</h2>
+                <h2 class="shop-item-title" id = "h2food">Golden Corn Pizza</h2>
                <div id="posstars">
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
@@ -28,15 +36,18 @@
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
                 <br>
-                    <p id = "price"> &#8377;250</p>
+                   <span class="shop-item-price">&#8377;250</span>
                </div>
-                <img id="movepizza" src="assets\Vegetarian\Golden corn Pizza.jfif" alt="Golden Corn Pizza">
+                <img  class="shop-item-image" id="movepizza" src="assets\Vegetarian\Golden corn Pizza.jfif" alt="Golden Corn Pizza">
+        
                 
-                <input onclick="location.href = 'Addtocart.html';" type="button" name="log" id="log" value="Select Item-->">
+                <button class="btn btn-primary shop-item-button">add to cart</button>
+                </div>
                 </div>
                 <br><br>
+                <div id="pizza">
                 <div id="JalapenoPizza">
-                <h2 id = "h2food">Jalapeno Pizza</h2>
+                <h2  class="shop-item-title" id = "h2food">Jalapeno Pizza</h2>
                 <div id="posstars">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -44,14 +55,17 @@
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <br>
-                    <p id = "price"> &#8377;250</p>
+                   <span class="shop-item-price">&#8377;250</span>
                    </div>
-                <img  id="movepizza" src="assets\Vegetarian\Jalapeno Pizza.jfif" alt="Jalapeno Pizza">
-                <input onclick="location.href = 'Addtocart.html';" type="button" name="log" id="log" value="Select Item-->">
-                </div>
+                <img class="shop-item-image" id="movepizza" src="assets\Vegetarian\Jalapeno Pizza.jfif" alt="Jalapeno Pizza">
+                <button class="btn btn-primary shop-item-button">add to cart</button>
+               </div>
+            </div>
                 <br><br>
+
+<div id="pizza">
                 <div id="PaneerSpecialPizza">
-                <h2 id = "h2food">Paneer Special Pizza</h2>
+                <h2 class="shop-item-title" id = "h2food">Paneer Special Pizza</h2>
                 <div id="posstars">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -59,16 +73,20 @@
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <br>
-                    <p id = "price"> &#8377;250</p>
+                   <span class="shop-item-price">&#8377;250</span>
                    </div>
-                <img  id="movepizza" src="assets\Vegetarian\Paneer special Pizza.jfif" alt="Paneer special Pizza">
-                <input onclick="location.href = 'Addtocart.html';" type="button" name="log" id="log" value="Select Item-->">
+                
+                    <img class="shop-item-image" id="movepizza" src="assets\Vegetarian\Paneer special Pizza.jfif" alt="Paneer special Pizza">
+               
+                <button class="btn btn-primary shop-item-button">add to cart</button>
                 </div>
+            </div>
                 <br><br>
             </div>
             <div>
+                <div id="pizza">
             <div id="pepperoni">
-                <h2 id = "h2food">Pepperoni</h2>
+                <h2 class="shop-item-title" id = "h2food">Pepperoni</h2>
                 <div id="posstars">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -76,14 +94,16 @@
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <br>
-                    <p id = "price"> &#8377;250</p>
+                   <span class="shop-item-price">&#8377;250</span>
                    </div>
-            <img  id="movepizza" src="assets\Non Vegetarian\pepperoni.jpg" alt="Pepperoni">
-            <input onclick="location.href = 'Addtocart.html';" type="button" name="log" id="log" value="Select Item-->">
+            <img class="shop-item-image" id="movepizza" src="assets\Non Vegetarian\pepperoni.jpg" alt="Pepperoni">
+            <button class="btn btn-primary shop-item-button">add to cart</button>
             </div>
+        </div>
             <br><br>
+            <div id="pizza">
             <div id="Margherita">
-            <h2 id = "h2food">Margherita</h2>
+            <h2 class="shop-item-title"  id = "h2food">Margherita</h2>
             <div id="posstars">
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
@@ -91,72 +111,88 @@
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
                 <br>
-                    <p id = "price"> &#8377;250</p>
+                   <span class="shop-item-price">&#8377;250</span>
                </div>
-            <img  id="movepizza" src="assets\Non Vegetarian\margherita.jfif" alt="Margherita">
-            <input onclick="location.href = 'Addtocart.html';" type="button" name="log" id="log" value="Select Item-->">
+            <img class="shop-item-image" id="movepizza" src="assets\Non Vegetarian\margherita.jfif" alt="Margherita">
+            <button class="btn btn-primary shop-item-button">add to cart</button>
+            </div>
             </div>
             <br><br>
+            <div id="pizza">
             <div id="BBQChickenPizza">
-            <h2 id = "h2food">BBQ Chicken Pizza</h2>
+            <h2 class="shop-item-title"  id = "h2food">BBQ Chicken Pizza</h2>
             <div id="posstars">
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
+                <br>
+                <span class="shop-item-price">&#8377;250</span>
                </div>
-            <img  id="movepizza" src="assets\Non Vegetarian\bbq chicke pizza.jpg" alt="BBQ Chicken Pizza">
-            <input onclick="location.href = 'Addtocart.html';" type="button" name="log" id="log" value="Select Item-->">
+            <img class="shop-item-image" id="movepizza" src="assets\Non Vegetarian\bbq chicke pizza.jpg" alt="BBQ Chicken Pizza">
+            <button class="btn btn-primary shop-item-button">add to cart</button>
             </div>
         </div>
         <br><br>
-        <div>
+        <div id="pizza">
             <div id="AvacadoPizza">
-                <h2 id = "h2food">Avacado Pizza</h2>
+                <h2 class="shop-item-title" id = "h2food">Avacado Pizza</h2>
                 <div id="posstars">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
+                    <br>
+                    <span class="shop-item-price">&#8377;250</span>
                    </div>
-                <img  id="movepizza" src="assets\Vegan\Avacado Pizza.jpg" alt="Avacado Pizza">
-                <input onclick="location.href = 'Addtocart.html';" type="button" name="log" id="log" value="Select Item-->">
+                <img class="shop-item-image" id="movepizza" src="assets\Vegan\Avacado Pizza.jpg" alt="Avacado Pizza">
+                <button class="btn btn-primary shop-item-button">add to cart</button>
+                </div>
                 </div>
                 <br><br>
+                <div id="pizza">
                 <div id="VeganMargherita">
-                <h2 id = "h2food">Vegan Margherita</h2>
+                <h2  class="shop-item-title" id = "h2food">Vegan Margherita</h2>
                 <div id="posstars">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
+                    <br>
+                    <span class="shop-item-price">&#8377;250</span>
                    </div>
-                <img  id="movepizza"  src="assets\Vegan\Vegan Margherita.jpg" alt="Vegan Margherita">
-                <input onclick="location.href = 'Addtocart.html';" type="button" name="log" id="log" value="Select Item-->">
+                <img class="shop-item-image" id="movepizza"  src="assets\Vegan\Vegan Margherita.jpg" alt="Vegan Margherita">
+                <button class="btn btn-primary shop-item-button">add to cart</button>
+                </div>
                 </div>
                 <br><br>
+                <div id="pizza">
                 <div id="Spicyvegtrio">
-                <h2 id = "h2food">Spicy veg trio</h2>
+                <h2 class="shop-item-title" id = "h2food">Spicy veg trio</h2>
                 <div id="posstars">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
+                    <br>
+                    <span class="shop-item-price">&#8377;250</span>
                    </div>
-                <img  id="movepizza" src="assets\Vegan\Spicy veg trio.jpg" alt="Spicy veg trio">
-                <input onclick="location.href = 'Addtocart.html';" type="button" name="log" id="log" value="Select Item-->">
+                <img class="shop-item-image" id="movepizza" src="assets\Vegan\Spicy veg trio.jpg" alt="Spicy veg trio">
+                <button class="btn btn-primary shop-item-button">add to cart</button>
                 </div> 
+                </div>
                 <br><br> 
         </div>
         </div>
-
+       
     <div id="drinks">
+        <h1 id ="h2">Drinks</h1>
         <div id="Daiquiris">
-            <h2 id = "h2food">Daiquiris</h2>
+            <h2 class="shop-item-title" id = "h2food">Daiquiris</h2>
             <div id="posstars">
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
@@ -164,14 +200,16 @@
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
                 <br>
-            <p id = "price"> &#8377;250</p>
+           <span class="shop-item-price">&#8377;250</span>
                </div>
-            <img id="movedrinks" src="assets\Drinks\Daiquiris.jfif" alt="Daiquiris">
-            <input onclick="location.href = 'Addtocart.html';" type="button" name="log" id="log" value="Select Item-->">
+            <img class="shop-item-image" id="movedrinks" src="assets\Drinks\Daiquiris.jfif" alt="Daiquiris">
+            <button class="btn btn-primary shop-item-button">add to cart</button>
+            </div>
             </div>
             <br><br>
+            <div id="drinks">
             <div id="GrapeJuice">
-            <h2 id = "h2food">Grape Juice</h2>
+            <h2 class="shop-item-title" id = "h2food">Grape Juice</h2>
             <div id="posstars">
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
@@ -179,14 +217,16 @@
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
                 <br>
-            <p id = "price"> &#8377;250</p>
+           <span class="shop-item-price">&#8377;250</span>
                </div>
-            <img id="movedrinks" src="assets\Drinks\grape juice.jfif" alt="Grape Juice">
-            <input onclick="location.href = 'Addtocart.html';" type="button" name="log" id="log" value="Select Item-->">
+            <img class="shop-item-image" id="movedrinks" src="assets\Drinks\grape juice.jfif" alt="Grape Juice">
+            <button class="btn btn-primary shop-item-button">add to cart</button>
+            </div>
             </div>
             <br><br>
+            <div id="drinks">
             <div id="Negrogoni">
-            <h2 id = "h2food">Negrogoni</h2>
+            <h2 class="shop-item-title" id = "h2food">Negrogoni</h2>
             <div id="posstars">
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
@@ -194,16 +234,18 @@
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
                 <br>
-            <p id = "price"> &#8377;250</p>
+           <span class="shop-item-price">&#8377;250</span>
                </div>
-            <img id="movedrinks" src="assets\Drinks\negroni.jfif" alt="Negrogoni">
-            <input onclick="location.href = 'Addtocart.html';" type="button" name="log" id="log" value="Select Item-->">
+            <img class="shop-item-image" id="movedrinks" src="assets\Drinks\negroni.jfif" alt="Negrogoni">
+            <button class="btn btn-primary shop-item-button">add to cart</button>
             </div>
     </div> 
-    <br><br> 
+    <br><br>
+  
     <div id="desserts">
+        <h1 id ="h3">Desserts</h1>
         <div id="GulabJamun">
-            <h2 id = "h2food">Gulab Jamun</h2>
+            <h2 class="shop-item-title" id = "h2food">Gulab Jamun</h2>
             <div id="posstars">
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
@@ -211,14 +253,17 @@
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
                 <br>
-            <p id = "price"> &#8377;250</p>
-               </div>
-            <img id ="movedesserts" src="assets\Desserts\gulab-jamun.jpg" alt="Gulab Jamun">
-            <input onclick="location.href = 'Addtocart.html';" type="button" name="log" id="log" value="Select Item-->">
+            
+           <span class="shop-item-price">&#8377;250</span>
+        </div>
+            <img class="shop-item-image" id ="movedesserts" src="assets\Desserts\gulab-jamun.jpg" alt="Gulab Jamun">
+            <button class="btn btn-primary shop-item-button">add to cart</button>
+            </div>
             </div>
             <br><br>
+            <div id="desserts">
             <div id="PasteisdeNata">
-            <h2 id = "h2food">Pasteis de Nata</h2>
+            <h2 class="shop-item-title" id = "h2food">Pasteis de Nata</h2>
             <div id="posstars">
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
@@ -226,14 +271,17 @@
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
                 <br>
-            <p id = "price"> &#8377;250</p>
-               </div>
-            <img  id ="movedesserts" src="assets\Desserts\pasteis de nata.jpg" alt="Pasteis de Nata">
-            <input onclick="location.href = 'Addtocart.html';" type="button" name="log" id="log" value="Select Item-->">
+           
+           <span class="shop-item-price">₹150</span>
+        </div>
+            <img class="shop-item-image"  id ="movedesserts" src="assets\Desserts\pasteis de nata.jpg" alt="Pasteis de Nata">
+            <button class="btn btn-primary shop-item-button">add to cart</button>
+            </div>
             </div>
             <br><br>
+            <div id="desserts">
             <div id="Tiramisu">
-            <h2 id = "h2food">Tiramisu</h2>
+            <h2 class="shop-item-title" id = "h2food">Tiramisu</h2>
             <div id="posstars">
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
@@ -241,12 +289,31 @@
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
                 <br>
-            <p id = "price"> &#8377;250</p>
+           <span class="shop-item-price">&#8377;500</span>
                </div>
-            <img id ="movedesserts" src="assets\Desserts\tiramisu.jpg" alt="Tiramisu">
-            <input onclick="location.href = 'Addtocart.html';" type="button" name="log" id="log" value="Select Item-->">
+            <img class="shop-item-image" id ="movedesserts" src="assets\Desserts\tiramisu.jpg" alt="Tiramisu">
+            <button class="btn btn-primary shop-item-button">add to cart</button>
             </div>
     </div>  
     
-</body>
+    <section class="container content-section">
+        <h2 class="section-header" id="cart">CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">₹0</span>
+           
+        </div>
+        <button  class="btn btn-primary btn-purchase" type="button">Order</button>
+       
+    </section>
+         <script src="app.js" async></script>
+  </body>
+ 
 </html>

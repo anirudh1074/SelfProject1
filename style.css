@@ -1,23 +1,4 @@
 
-#container1
-{
-    overflow: hidden;
-    background-color: white;
-    height: 60vh;
-    width:60%;
-    border-radius: 15px;
-    margin-left: 250px; 
-     margin-top: 70px;
-    text-align: center;
-    padding: 10px;
-    cursor: pointer;
-    font-size: 12px;
-}
-#container1>p{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bolder;
-    text-align: center;
-}
 
 #pepperoni, #Margherita ,#GoldenCornPizza ,#JalapenoPizza ,#PaneerSpecialPizza ,#BBQChickenPizza ,#AvacadoPizza ,#Spicyvegtrio ,#VeganMargherita, #Daiquiris, #GrapeJuice, #Negrogoni
 ,#GulabJamun ,#PasteisdeNata ,#Tiramisu
@@ -27,28 +8,52 @@
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     border-color: black;
     background-color: white;
+    width:80%;
+    margin-left: 170px;
 }
 img 
 {
     width:100px;
     height:100px;
 }
-#pizza,#drinks,#desserts
+#h1,#h2,#h3
 {
-    margin-top: 50px;
+    margin-top: 90px;
     width:800px;
     margin-left: 300px; 
 }
-#movepizza , #movedrinks ,#movedesserts
+#movepizza , #movedrinks ,#movedesserts,.shop-item-image
 {
   margin-left: 60px;
   padding-top:30px;
 }
-#log
+.btn.btn-primary.shop-item-button
 {
-margin-left: 705px;
+margin-left: 780px;
 background-color: orangered;
 color:white;
+cursor: pointer;
+font-weight: bolder;
+font-size: 17px;
+text-align: center; 
+border-radius: 10px;
+padding: 10px;
+width: 120px;
+height: 50px;
+border: none;
+}
+.btn{
+  border: none;
+  color: white;
+  padding: 10px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 12px;
+  background-color:orangered;
+  font-weight: bolder;
+  font-size: 15px;
+  text-align: center; 
+  border-radius: 10px;
 }
 h2
 {
@@ -66,12 +71,6 @@ height: 100%;
     background-attachment: fixed;
     background-size: 100% 100%;
 }
-#h2food
-{
-margin-left: 200px;
-position: absolute;
-padding-top: 20px;
-}
 #posstars
 {
 margin-left: 200px;
@@ -79,11 +78,12 @@ position: absolute;
 padding-top: 80px;
 color: orangered;
 }
-#price
+.shop-item-price
 {
     font-weight: bolder;
     font-size:18px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    
 }
 #foodlinks
 {
@@ -113,44 +113,6 @@ color: orangered;
   color:orange;
   margin-left: 20px;
 }
-  /* #red-button
-  {
-    background-color: hsl(0, 71%, 51%);
-    color: #ffffff;
-    font-weight: bolder;
-    width: 30%;
-    font-size: 15px;
-    padding: 20px 40px;
-    border: white;
-    border-radius: 25px;
-    
-  } */
-  /* #orange-button
-  {
-    background-color: orangered;
-    color: #ffffff;
-    font-weight: bolder;
-    width: 15%;
-    height: 13%;
-    font-size: 15px;
-    padding: 20px 40px;
-    border: white;
-    border-radius: 25px;
-    text-align: center;
-  } */
-  .btn{
-    border: none;
-    color: white;
-    padding: 10px;
-    height: 50px;
-    cursor: pointer;
-    font-size: 12px;
-    background-color:orangered;
-    font-weight: bolder;
-    font-size: 15px;
-    text-align: center; 
-    border-radius: 10px;
-  }
   #choose
   {
       text-align: center;
@@ -185,5 +147,226 @@ color: orangered;
   }
   .section-header
   {
-    padding-left:600px;
+    /* padding-left:600px; */
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color: black;
+    text-align: center;
+    font-size: 2.5em;
   }
+  .about
+  {
+    background-color: orange;
+  }
+  #purchase
+  {
+    text-align: center;
+  }
+  header .navbar{
+    text-decoration: none;
+  }
+  header{
+
+    position: fixed;
+
+    top:0; left: 0; right:0;
+
+    background: rgb(241, 92, 6);
+
+    padding:1rem 7%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    z-index: 1000;
+
+    box-shadow: var(--box-shadow);
+
+    text-decoration: none;
+
+}
+header .navbar a{
+
+  font-size: 1.7rem;
+
+  font-weight: bold;
+
+  border-radius: .5rem;
+
+  padding:.5rem 1.5rem;
+
+  color:var(--light-color);
+  
+  margin-left: 160px;
+
+  text-decoration: none;
+  
+
+}
+
+
+
+header .navbar a.active,
+
+header .navbar a:hover{
+
+  color:#fff;
+
+  background: var(--green);
+}
+
+.shop-item {
+  margin: 30px;
+}
+#h2food
+{
+margin-left: 200px;
+position: absolute;
+padding-top: 20px;
+}
+
+.shop-item-title {
+  /* display: block;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 15px; */
+margin-left: 200px;
+position: absolute;
+padding-top: 20px;
+}
+
+.shop-item-image {
+  /* height: 250px; */
+  height: 100px;
+  width: 100px;
+}
+
+.shop-item-details {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+
+.shop-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cart-header {
+  font-weight: bold;
+  font-size: 1.25em;
+  color: #333;
+}
+
+.cart-column {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  margin-right: 1.5em;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.cart-row {
+  display: flex;
+}
+
+.cart-item {
+  width: 45%;
+}
+
+.cart-price {
+  width: 20%;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.cart-quantity {
+  width: 35%;
+}
+
+.cart-item-title {
+  color: #333;
+  margin-left: .5em;
+  font-size: 1.2em;
+}
+
+.cart-item-image {
+  width: 75px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.btn-danger {
+  color: white;
+  background-color: #EB5757;
+  border: none;
+  border-radius: .3em;
+  font-weight: bold;
+}
+
+.btn-danger:hover {
+  background-color: #CC4C4C;
+}
+
+.cart-quantity-input {
+  height: 34px;
+  width: 50px;
+  border-radius: 5px;
+  border: 1px solid #56CCF2;
+  background-color: #eee;
+  color: #333;
+  padding: 0;
+  text-align: center;
+  font-size: 1.2em;
+  margin-right: 25px;
+}
+
+.cart-row:last-child {
+  border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+  border: none;
+}
+
+.cart-total {
+  text-align: end;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.cart-total-title {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: black;
+  margin-right: 20px;
+}
+
+.cart-total-price {
+  color: #333;
+  font-size: 1.1em;
+}
+.btn-purchase
+{
+  display: block;
+  margin:  40px auto 80px auto;
+  font-size: 1.75em;
+}
+.container
+{
+  background: smokewhite;
+}
+.cartsection
+{
+    margin: 50px;
+    color: #edf0f1;
+}
