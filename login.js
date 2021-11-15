@@ -26,7 +26,7 @@ function getData()
         document.getElementById('last').value = " ";
         document.getElementById('email').value = " ";
         document.getElementById('password').value = " ";
-        window.location.href = 'login.html'
+        window.location.href = 'index.html'
         alert("REGISTRATION SUCCESS")
     }
 }
