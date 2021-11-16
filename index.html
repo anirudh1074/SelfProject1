@@ -15,26 +15,34 @@
     <nav>
         <label class="logo">FoodieLand</label>
         <ul>
-            <li><a href="login.html">Home</a></li>
+            <li><a href="#div1">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#footer">Contact</a></li>
         </ul>
     </nav>
 </header>
     <div id="div1">
-        <div class="loginbox">
-            <img src="assets\Login\Logo.png" class="avatar">
-            <h1>Login Here</h1>
-            <form>
-                <p>Email</p>
-                <input id="email" type="text" name="" placeholder="Enter Email">
-                <p>Password</p>
-                <input id="password"type="password" name="" placeholder="Enter Password">
-                <input type="submit" onclick="userLogin()" name="" value="Login">
-                
-                <a href="Signup.html">Don't have an account?</a>
-            </form>
-        </div>
+        <section class="home" id="home">
+            <div class="loginbox">
+                <img src="assets\Login\Logo.png" class="avatar">
+                <h1>Login Here</h1>
+                <form>
+                    <p>Email</p>
+                    <input id="email" type="text" name="" placeholder="Enter Email">
+                    <p>Password</p>
+                    <input id="password"type="password" name="" placeholder="Enter Password">
+                    <input type="submit" onclick="userLogin()" name="" value="Login">
+                    <a href="Signup.html">Don't have an account?</a>
+                </form>
+                <div class="row">
+                    <div class="image">
+                        <img src="assets\Login\aboutdec.jpg" alt="">
+                    </div>
+                </div>
+        
+    
+            </div>
+        </section>
     </div>  
     <div id="div2">
         <section class="about" id="about">
@@ -73,6 +81,6 @@
         
         </section>
     </div>
-    </body>
     <script src="login.js" async></script>
+    </body>
 </html>
