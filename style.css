@@ -345,7 +345,7 @@ html, body {
 } */
 .shop-item-button
 {
-  margin-left: 625px;
+  margin-left: 725px;
   background-color: orangered;
   color:white;
   cursor: pointer;
@@ -376,7 +376,7 @@ color: #333;
 }
 
 .shop-item-image {
-  height: 17git0px;
+  height: 170px;
   width: 150px;
 }
 
